@@ -92,7 +92,6 @@
     <None Include="Assets\Bolt\Ludiq\Assemblies\Bolt.Core.Editor.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\Requin\License.txt" />
     <None Include="Assets\Bolt\Ludiq\Assemblies\Ludiq.Graphs.Runtime.xml" />
     <None Include="Assets\Menu\Panda\License.txt" />
     <None Include="Assets\Bolt\Ludiq\Ludiq.Core\DotNetDocumentation\System.Printing.xml" />
@@ -138,7 +137,6 @@
     <None Include="Assets\Bolt\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.VisualC.STLCLR.xml" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Menu\Requin\License.txt" />
-    <None Include="Assets\panda\License.txt" />
     <None Include="Assets\Bolt\Ludiq\Ludiq.Core\DotNetDocumentation\System.ServiceModel.xml" />
     <None Include="Assets\Bolt\Ludiq\Assemblies\Ludiq.Platforms.dll" />
     <None Include="Assets\Bolt\Ludiq\Ludiq.Core\DotNetDocumentation\System.Deployment.xml" />
