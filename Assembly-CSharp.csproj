@@ -56,9 +56,13 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CreationMap.cs" />
     <Compile Include="Assets\Scripts\DeplacementJoueur.cs" />
     <Compile Include="Assets\Scripts\Deplacement2.cs" />
-    <Compile Include="Assets\Scripts\CreationMap.cs" />
+    <Compile Include="Assets\Scripts\Menu.cs" />
+    <Compile Include="Assets\Scripts\ChangePv.cs" />
+    <Compile Include="Assets\Scripts\Mort.cs" />
+    <Compile Include="Assets\Scripts\MouseCollider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Bolt\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.Design.xml" />
@@ -85,6 +89,7 @@
     <None Include="Assets\Bolt\Ludiq\Assemblies\Bolt.Core.Editor.dll" />
     <None Include="Assets\Requin\License.txt" />
     <None Include="Assets\Bolt\Ludiq\Assemblies\Ludiq.Graphs.Runtime.xml" />
+    <None Include="Assets\Menu\Panda\License.txt" />
     <None Include="Assets\Bolt\Ludiq\Ludiq.Core\DotNetDocumentation\System.Printing.xml" />
     <None Include="Assets\Bolt\Ludiq\Assemblies\Bolt.State.Editor.dll" />
     <None Include="Assets\Bolt\Ludiq\Ludiq.Core\DotNetDocumentation\System.Management.Instrumentation.xml" />
@@ -117,6 +122,7 @@
     <None Include="Assets\Bolt\Ludiq\Ludiq.Core\DotNetDocumentation\System.EnterpriseServices.xml" />
     <None Include="Assets\Bolt\Ludiq\Ludiq.Core\DotNetDocumentation\System.IdentityModel.xml" />
     <None Include="Assets\Bolt\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.VisualC.STLCLR.xml" />
+    <None Include="Assets\Menu\Requin\License.txt" />
     <None Include="Assets\panda\License.txt" />
     <None Include="Assets\Bolt\Ludiq\Ludiq.Core\DotNetDocumentation\System.ServiceModel.xml" />
     <None Include="Assets\Bolt\Ludiq\Assemblies\Ludiq.Platforms.dll" />
@@ -150,6 +156,7 @@
     <None Include="Assets\Bolt\Ludiq\Ludiq.Core\DotNetDocumentation\System.Windows.Presentation.xml" />
     <None Include="Assets\Bolt\Ludiq\Ludiq.Core\DotNetDocumentation\System.Xml.xml" />
     <None Include="Assets\Bolt\Ludiq\Assemblies\Ludiq.Graphs.Runtime.dll" />
+    <None Include="Assets\Menu\Aigle\License.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -767,8 +774,14 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.41f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
