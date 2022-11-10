@@ -1221,21 +1221,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 1526701460}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ac15ea692ecfe4408cd85179a268b8e, type: 3}
+  m_Script: {fileID: 11500000, guid: d12139c4525a6024cb85a93f5e9dcc7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   monde: 1
   longueur: 25
   largeur: 25
+  timer: 0
+  money: 0
   parent: {fileID: 1526701460}
+  thune: {fileID: 2429276872827919495, guid: 56202c0d48fb46642b34fd1e9fdc97cd, type: 3}
+  bordure: {fileID: 5638115486320094598, guid: 4bbbea53d789b754daa2f5fb33888591, type: 3}
   terrain1:
-  - {fileID: 919132149155446097, guid: f9221db971001654c891a7e38a8b107b, type: 3}
-  - {fileID: 919132149155446097, guid: 8b84201d464a87b48a9e9ef07d35f0b3, type: 3}
-  - {fileID: 919132149155446097, guid: 84348cae122e48e45aa1da3cc8498bda, type: 3}
-  - {fileID: 919132149155446097, guid: c67cbfdaebef2f948b8d47b5ca13dc52, type: 3}
-  bordure: {fileID: 6376061474728764741, guid: cfba7de3fb9cf9c4b917f695c1a54ff7, type: 3}
-  terrain2: []
-  terrain3: []
+  - {fileID: 883990545763252770, guid: 71bc0161f4c1e3545bad8b7119162533, type: 3}
+  - {fileID: 8331174255524101007, guid: 52a7f6c0e15403043a4ca7e8871c6007, type: 3}
+  - {fileID: 4382948318161061364, guid: f94f6cb523380f9428191bfa42dcd294, type: 3}
+  - {fileID: 6302703268458022796, guid: 77804a408606eac48bd9d2ee6bf6fd7b, type: 3}
+  bouffe1: {fileID: 7827274542406655295, guid: 01550ef2ad463c94d89921c0f2b9547c, type: 3}
+  terrain2:
+  - {fileID: 1658207935596022172, guid: 581fb2c1bb9136041a07e327b230eee4, type: 3}
+  - {fileID: 1159131044783075128, guid: f0262438ae5ebc14d84c2698142b192b, type: 3}
+  - {fileID: 1655574813982851289, guid: 2ecee3e12665b9c43bbfbf2242613a5b, type: 3}
+  - {fileID: 8225879946146297669, guid: 92888480dc537d144b2498194068fe3d, type: 3}
+  bouffe2: {fileID: 8828460579869786897, guid: f54cd6333056cc24faba1a1a24608ae6, type: 3}
+  terrain3:
+  - {fileID: 7113799119932519593, guid: 558a237ec90a93d4c9fb6220bb1b32e6, type: 3}
+  - {fileID: 7878338683315377427, guid: 3979d28247c8fb44795be2ceaa40cadc, type: 3}
+  - {fileID: 7878338683315377427, guid: 3979d28247c8fb44795be2ceaa40cadc, type: 3}
+  - {fileID: 7878338683315377427, guid: 3979d28247c8fb44795be2ceaa40cadc, type: 3}
+  bouffe3: {fileID: 8787579482415267744, guid: f8e4721525f50a044b8a835fcec7b579, type: 3}
 --- !u!1 &1589415070
 GameObject:
   m_ObjectHideFlags: 3
